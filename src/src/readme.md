@@ -1,18 +1,25 @@
+Codeforces
+Repositório com minhas soluções para problemas do Codeforces, feitas em Java.
+Sobre
+Aqui ficam guardadas as resoluções que vou fazendo conforme participo de contests e treino problemas avulsos da plataforma. O objetivo é acompanhar minha evolução em algoritmos, estruturas de dados e raciocínio lógico para competições de programação.
+Estrutura
+src/
+└── src/
+    ├── contest4A.java
+    ├── contest71A.java
+    └── ...
+Cada arquivo segue o padrão contest<NÚMERO><LETRA>.java, onde:
 
-One hot summer day Pete and his friend Billy decided to buy a watermelon. They chose the biggest and the ripest one, in their opinion. After that the watermelon was weighed, and the scales showed w kilos. They rushed home, dying of thirst, and decided to divide the berry, however they faced a hard problem.
+<NÚMERO> é o ID do round/contest no Codeforces.
+<LETRA> é a letra do problema dentro do contest (A, B, C, ...).
 
-Pete and Billy are great fans of even numbers, that's why they want to divide the watermelon in such a way that each of the two parts weighs even number of kilos, at the same time it is not obligatory that the parts are equal. The boys are extremely tired and want to start their meal as soon as possible, that's why you should help them and find out, if they can divide the watermelon in the way they want. For sure, each of them should get a part of positive weight.
+Exemplo: contest4A.java é o problema A do Round 4.
+Como rodar
+Cada arquivo é um programa Java independente. Para compilar e executar:
+bashjavac contest4A.java
+java contest4A
+A entrada é lida via Scanner / BufferedReader no padrão do Codeforces (stdin).
+Links úteis
 
-Input
-The first (and the only) input line contains integer number w (1 ≤ w ≤ 100) — the weight of the watermelon bought by the boys.
-
-Output
-Print YES, if the boys can divide the watermelon into two parts, each of them weighing even number of kilos; and NO in the opposite case.
-
-Examples
-inputCopy
-8
-outputCopy
-YES
-Note
-For example, the boys can divide the watermelon into two parts of 2 and 6 kilos respectively (another variant — two parts of 4 and 4 kilos).
+Meu perfil no Codeforces: cauaadev
+Site oficial: codeforces.com
