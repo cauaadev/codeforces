@@ -6,7 +6,7 @@ public class contest231A {
         Scanner sc = new Scanner(System.in);
         int colunas = sc.nextInt();
         var linhas = 3;
-git
+
         int[][] matriz = new int[colunas][linhas];
         if(colunas >= 1 && colunas <= 1000){
             for (int i = 0; i < colunas; i++){
